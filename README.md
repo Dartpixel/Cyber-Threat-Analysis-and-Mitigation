@@ -1,11 +1,12 @@
-# PE format provoids information to the windows loader on how to manage the executable code wrapped inside.
+# PE format
+It provoids information to the windows loader on how to manage the executable code wrapped inside.
 
 ## We have headers with all this information like:
 
-~ DOS header : to validate and exeute in the dos tub.
-~ PE header : contains lot of information like location of the code in memory, the size of the code,etc.
-~ Optional header
-~ Sections table
+DOS header : to validate and exeute in the dos tub.
+PE header : contains lot of information like location of the code in memory, the size of the code,etc.
+Optional header
+Sections table
 
 ### Sections : they contains actual code, exported directories, imported functions, etc. 
 
